@@ -1,0 +1,77 @@
+@media (min-width: 1024px) {
+  #nav > li {
+    display: inline-block;
+  }
+  #header > .mobile-menu-btn {
+    display: none;
+  }
+}
+
+@media (min-width: 170px) and (max-width: 1023px) {
+  #nav > li {
+    display: inline-block;
+  }
+  #header > .mobile-menu-btn {
+    display: none;
+  }
+}
+
+@media (max-width: 739px) {
+  #nav > li {
+    display: block;
+  }
+  #header > .search-btn {
+    display: none;
+  }
+  #header {
+    overflow: hidden;
+  }
+  #header > .mobile-menu-btn {
+    display: inline-block;
+    float: right;
+    height: 100%;
+    padding: 0.8rem 1.4rem;
+    color: #fff;
+    font-size: 15px;
+  }
+  #nav > li:hover > a {
+    color: #000;
+    background-color: #ccc;
+  }
+
+  #nav > li {
+    width: 100%;
+  }
+  #nav > li:last-child {
+    display: none;
+  }
+  #nav > li:not(:first-child) {
+  }
+  #header > .mobile-menu-btn:hover {
+    background-color: #ccc;
+  }
+  .cart-member {
+    margin-top: 40px;
+  }
+  .cart-member > .col-third {
+    width: 100%;
+  }
+  .cart-member > .cart-about {
+    width: 70%;
+    margin-left: 18%;
+  }
+  .place-list > .col-third {
+    width: 100% !important;
+    margin-top: 20px;
+  }
+  #model .model-container {
+    max-width: calc(100% - 20px) !important;
+  }
+  #contact > .row > .col-half {
+    width: 100% !important;
+  }
+  .row-contact-input-one > .col-half {
+    width: 100% !important;
+    margin-top: 9px;
+  }
+}

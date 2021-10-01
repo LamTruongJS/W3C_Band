@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>W3C Band</title>
+    <link
+      rel="icon"
+      href="https://themify.me/wp-content/themes/themify-v32/favicon.png"
+    />
+    <link rel="stylesheet" href="./asset/css/style.css" />
+    <link rel="stylesheet" href="./asset/css/responsivs.css" />
+    <link rel="stylesheet" href="./font/themify-icons/themify-icons.css" />
+  </head>
+  <body>
+    <div id="main">
+      <div id="header">
+        <ul id="nav">
+          <li><a href="#">Home</a></li>
+          <li><a href="#band">Band</a></li>
+          <li><a href="#tour">Tour</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li>
+            <a href="#"
+              >More
+              <i class="ti-angle-down nav-arrow-down"></i>
+            </a>
+            <ul id="subnav">
+              <li><a href="#">Merchandise</a></li>
+              <li><a href="#">Extras</a></li>
+              <li><a href="#">Media</a></li>
+            </ul>
+          </li>
+        </ul>
+        <div class="search-btn">
+          <i class="search-icon ti-search"></i>
+        </div>
+        <div class="mobile-menu-btn">
+          <i class="ti-menu"></i>
+        </div>
+      </div>
+
+      <div id="slider">
+        <div class="text-content">
+          <h2 class="text-heading">Chicago</h2>
+          <div class="text-description">
+            Thank you, Chicago - A night we won't forget.
+          </div>
+        </div>
+      </div>
+
+      <div id="content">
+        <div id="band" class="content-section">
+          <h2 class="section-heading">The Band</h2>
+          <p class="section-sub-heading">We love Music</p>
+          <p class="about-text">
+            We have created a fictional band website. Lorem ipsum dolor sit
+            amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+            ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+            nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+            consequat. Duis aute irure dolor in reprehenderit in voluptate velit
+            esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+            cupidatat non proident, sunt in culpa qui officia deserunt mollit
+            anim id est laborum consectetur adipiscing elit, sed do eiusmod
+            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+            veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+            ea commodo consequat.
+          </p>
+          <div class="cart-member row">
+            <div class="cart-about col col-third">
+              <p class="cart-name">Name</p>
+              <div class="cart-img"></div>
+            </div>
+            <div class="cart-about col col-third">
+              <p class="cart-name">Name</p>
+              <div class="cart-img"></div>
+            </div>
+            <div class="cart-about col col-third">
+              <p class="cart-name">Name</p>
+              <div class="cart-img"></div>
+            </div>
+          </div>
+        </div>
+
+        <div id="tour" class="tour-section">
+          <div class="content-section">
+            <h2 class="section-heading text-white">TOUR DATES</h2>
+            <p class="section-sub-heading text-white">
+              Remember to book your tickets!
+            </p>
+            <ul class="tickets-list">
+              <li>
+                September <span class="sold-out text-white">Sold out</span>
+              </li>
+              <li>October <span class="sold-out text-white">Sold out</span></li>
+              <li>November <span class="quantity text-white">3</span></li>
+            </ul>
+
+            <div class="row place-list">
+              <div class="col col-third">
+                <img src="/asset/img/newyork.jpg" alt="" class="place-img" />
+                <div class="place-body">
+                  <h3 class="place-heading">New York</h3>
+                  <p class="place-time">Fri 27 Nov 2016</p>
+                  <p class="place-desc">
+                    Praesent tincidunt sed tellus ut rutrum sed vitae justo.
+                  </p>
+                  <button class="place-buy-btn text-white" onclick="model()">
+                    Buy Tickets
+                  </button>
+                </div>
+              </div>
+              <div class="col col-third">
+                <img src="/asset/img/paris.jpg" alt="" class="place-img" />
+                <div class="place-body">
+                  <h3 class="place-heading">Paris</h3>
+                  <p class="place-time">Sat 28 Nov 2016</p>
+                  <p class="place-desc">
+                    Praesent tincidunt sed tellus ut rutrum sed vitae justo.
+                  </p>
+                  <button class="place-buy-btn text-white" onclick="model()">
+                    Buy Tickets
+                  </button>
+                </div>
+              </div>
+              <div class="col col-third">
+                <img src="/asset/img/sanfran.jpg" alt="" class="place-img" />
+                <div class="place-body">
+                  <h3 class="place-heading">San Francisco</h3>
+                  <p class="place-time">Sun 29 Nov 2016</p>
+                  <p class="place-desc">
+                    Praesent tincidunt sed tellus ut rutrum sed vitae justo.
+                  </p>
+                  <button class="place-buy-btn text-white" onclick="model()">
+                    Buy Tickets
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div id="contact" class="content-section">
+          <h2 class="section-heading">CONTACT</h2>
+          <p class="section-sub-heading">Fan? Drop a note!</p>
+          <div class="row">
+            <div class="col col-half col-contact">
+              <p><i class="ti-location-pin contact-icon"></i> Chicago, US</p>
+              <p><i class="ti-mobile contact-icon"></i> Phone: +00 151515</p>
+              <p><i class="ti-email contact-icon"></i> Email: mail@mail.com</p>
+            </div>
+            <div class="col col-half">
+              <form action="">
+                <div class="row row-contact-input-one">
+                  <div class="col col-half">
+                    <input
+                      type="text"
+                      class="contact-input-half"
+                      placeholder="Name"
+                    />
+                  </div>
+                  <div class="col col-half">
+                    <input
+                      type="text"
+                      class="contact-input-half"
+                      placeholder="Email"
+                    />
+                  </div>
+                </div>
+
+                <div class="row">
+                  <div class="col col-full">
+                    <input
+                      type="text"
+                      class="contact-input-full"
+                      placeholder="Message"
+                    />
+                  </div>
+                </div>
+
+                <button class="btn-send">Send</button>
+              </form>
+            </div>
+          </div>
+        </div>
+        <div class="map-section">
+          <img src="/asset/img//map.jpg" alt="" srcset="" />
+        </div>
+      </div>
+
+      <div id="footer">
+        <div class="social-list">
+          <a href=""><i class="ti-facebook"></i></a>
+          <a href=""><i class="ti-instagram"></i></a>
+          <a href=""><i class="ti-youtube"></i></a>
+          <a href=""><i class="ti-pinterest"></i></a>
+          <a href=""><i class="ti-twitter"></i></a>
+          <a href=""><i class="ti-linkedin"></i></a>
+          <div class="footer-by">Lâm Trường</div>
+        </div>
+      </div>
+    </div>
+
+    <div id="model" onclick="hiddenModel()">
+      <div class="model-container">
+        <div class="model-close" onclick="model()">
+          <i class="ti-close"></i>
+        </div>
+        <header class="model-header text-white">
+          <i class="ti-bag"></i> Tickets
+        </header>
+        <div class="model-body">
+          <label for="model-input" class="model-label">
+            <i class="ti-shopping-cart-full"></i>
+            Tickets, $15 per person
+          </label>
+          <input type="text" class="model-input" placeholder="How many?" />
+          <label for="model-input" class="model-label">
+            <i class="ti-user"></i> Send To
+          </label>
+          <input type="text" class="model-input" placeholder="Enter Email" />
+        </div>
+        <div class="model-footer">
+          <button class="btn-pay">Pay<i class="ti-check"></i></button>
+          <button class="btn-close" onclick="model()">
+            Close <i class="ti-close"></i>
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <script type="text/javascript" src="/js/style.js"></script>
+  </body>
+</html>
